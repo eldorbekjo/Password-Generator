@@ -94,27 +94,3 @@ button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-/*
-
-// const generate = document.getElementById("generate");
-const inputEl1 = document.getElementById("input-el1");
-const inputEl2 = document.getElementById("input-el2");
-
-function RandomCharacter() {
-  let randomchar = Math.floor(Math.random() * characters.length);
-  return characters[randomchar];
-}
-
-function generate() {
-  function generatePassword() {
-    let emptyText = "";
-    for (let i = 0; i < 12; i++) {
-      emptyText += RandomCharacter();
-    }
-    return emptyText;
-  }
-
-  inputEl1.value = generatePassword();
-  inputEl2.value = generatePassword();
-}
-  */
